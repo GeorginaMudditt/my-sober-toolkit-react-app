@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Header from "./Header";
+import Introduction from "./Introduction";
 import Resources from "./Resources";
 import Counter from "./Counter";
 import About from "./About";
@@ -10,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Introduction</h1>
+      <Introduction />
       <Resources />
       <Counter />
       <About />

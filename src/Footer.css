@@ -1,3 +1,7 @@
 .Footer {
-  background-color: palegreen;
+  background-color: #ba143e;
+}
+
+.Footer p {
+  color: #e0e0e0;
 }

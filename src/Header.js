@@ -31,7 +31,7 @@ function Header() {
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="https://varstar-web.com/">
-                  Sober counter
+                  Sobriety counter
                 </a>
               </li>
               <li class="nav-item">
