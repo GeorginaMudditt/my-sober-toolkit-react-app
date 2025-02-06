@@ -8,7 +8,7 @@ function Header() {
     <div className="Header">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="https://varstar-web.com/">
             <img className="navbar-logo" src={navbar_logo} alt="Navbar logo" />
           </a>
           <button
@@ -25,17 +25,17 @@ function Header() {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="https://varstar-web.com/">
                   Resources
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="https://varstar-web.com/">
                   Sober counter
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="https://varstar-web.com/">
                   About this project
                 </a>
               </li>
