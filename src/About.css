@@ -1,3 +1,13 @@
 .About {
-  background-color: peru;
+  background-color: #e0e0e0;
+}
+
+.About h1 {
+  color: #ba143e;
+  font-family: "Anton", serif;
+  letter-spacing: 2px;
+}
+
+.About p {
+  font-family: "Poppins", sans-serif;
 }

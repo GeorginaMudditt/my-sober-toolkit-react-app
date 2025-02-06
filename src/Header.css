@@ -1,3 +1,18 @@
 .Header {
-  background-color: red;
+  background-color: #e0e0e0;
+}
+
+.Header .main-logo {
+  width: 200px;
+  height: 200px;
+}
+
+.Header h1 {
+  color: #ba143e;
+  font-family: "Anton", serif;
+  letter-spacing: 2px;
+}
+
+.Header p {
+  font-family: "Poppins", sans-serif;
 }
