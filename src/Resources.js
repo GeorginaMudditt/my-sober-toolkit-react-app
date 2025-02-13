@@ -1,7 +1,9 @@
 import React from "react";
 import "./Resources.css";
+import supabase from "./config/supabaseClient";
 
 function Resources() {
+  console.log(supabase);
   return (
     <div className="Resources">
       <h1>Resources</h1>
