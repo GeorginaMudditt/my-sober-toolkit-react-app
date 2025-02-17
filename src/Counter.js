@@ -35,7 +35,7 @@ function Counter() {
   };
 
   return (
-    <div className="Counter">
+    <div id="counter-section" className="Counter">
       <h1>Sobriety counter</h1>
       <form onSubmit={handleSubmit}>
         <div>

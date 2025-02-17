@@ -4,7 +4,7 @@ import "./Resources.css";
 
 function Resources() {
   return (
-    <div className="Resources">
+    <div id="resources-section" className="Resources">
       <h1>Resources</h1>
       <p>I want to see:</p>
       <ul>

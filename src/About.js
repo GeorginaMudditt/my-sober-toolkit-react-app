@@ -4,7 +4,7 @@ import georgie from "./images/Georgie.jpeg";
 
 function About() {
   return (
-    <div className="About">
+    <div id="about-section" className="About">
       <h1>About this project</h1>
       <div className="about-container">
         <div className="about-image">

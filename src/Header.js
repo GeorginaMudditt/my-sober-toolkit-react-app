@@ -25,17 +25,17 @@ function Header() {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="https://varstar-web.com/">
+                <a class="nav-link" href="#resources-section">
                   Resources
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://varstar-web.com/">
+                <a class="nav-link" href="#counter-section">
                   Sobriety counter
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://varstar-web.com/">
+                <a class="nav-link" href="#about-section">
                   About this project
                 </a>
               </li>
