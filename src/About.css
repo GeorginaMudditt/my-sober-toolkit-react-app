@@ -37,3 +37,7 @@
 .About .about-text {
   margin: 20px;
 }
+
+.About .center {
+  text-align: center;
+}

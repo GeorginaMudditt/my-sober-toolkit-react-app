@@ -38,14 +38,14 @@ function About() {
           </p>
         </div>
       </div>
-      <p>
+      <p className="center">
         If you would like to suggest a resource to add, or give me some
         feedback, I would love to hear from you!
       </p>
       <button>
         <a href="mailto:g.k.mudditt@gmail.com">Email me</a>
       </button>
-      <p>
+      <p className="center">
         If you have found this page useful, please consider making a small
         donation. I created this project with love - not for money - but being
         supported would mean the world.

@@ -1,5 +1,7 @@
 .Introduction {
+  margin: 0 auto;
   padding: 20px 50px;
+  width: 80%;
 }
 
 .Introduction ul {
@@ -19,6 +21,7 @@
 .Introduction .questions-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  align-items: center;
 }
 
 @media (max-width: 400px) {
