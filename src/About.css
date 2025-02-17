@@ -41,3 +41,9 @@
 .About .center {
   text-align: center;
 }
+
+@media (max-width: 400px) {
+  .About .about-container {
+    grid-template-columns: 1fr;
+  }
+}
