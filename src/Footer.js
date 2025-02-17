@@ -9,12 +9,16 @@ function Footer() {
         <a
           href="https://www.linkedin.com/in/georgina-mudditt/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           Georgina Mudditt
         </a>{" "}
         at{" "}
-        <a href="https://varstar-web.com/" target="_blank" rel="noreferrer">
+        <a
+          href="https://varstar-web.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Varstar
         </a>
       </p>
