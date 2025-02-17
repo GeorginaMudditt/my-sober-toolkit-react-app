@@ -13,3 +13,7 @@
   background-color: #f8f9fa;
   border: none;
 }
+
+.Header .nav-link {
+  margin: 0 10px;
+}

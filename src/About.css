@@ -1,6 +1,8 @@
 .About {
   background-color: #e0e0e0;
+  margin: 0 auto;
   padding: 20px 50px;
+  width: 80%;
 }
 
 .About h1 {
