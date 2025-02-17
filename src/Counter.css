@@ -1,1 +1,20 @@
+.Counter {
+  padding: 20px 50px;
+  text-align: center;
+}
 
+.Counter input {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: block;
+  margin: 10px auto;
+  padding: 3px;
+}
+
+.Counter p {
+  text-align: center;
+}
+
+.Counter .jumping-man {
+  height: 100px;
+}

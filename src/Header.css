@@ -1,9 +1,15 @@
 .Header .main-logo {
   width: 200px;
   height: 200px;
+  text-align: center;
 }
 
 .Header .navbar-logo {
   width: 40px;
   height: 40px;
+}
+
+.Header .navbar-toggler {
+  background-color: #f8f9fa;
+  border: none;
 }

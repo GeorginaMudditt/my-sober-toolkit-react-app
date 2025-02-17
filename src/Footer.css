@@ -4,4 +4,11 @@
 
 .Footer p {
   color: #e0e0e0;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.Footer a {
+  color: #e0e0e0;
+  text-decoration: underline;
 }

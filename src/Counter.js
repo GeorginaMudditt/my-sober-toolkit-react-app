@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Counter.css";
+import happy from "./images/man-jumping.png";
 
 function Counter() {
   const [name, setName] = useState("");
@@ -40,6 +41,7 @@ function Counter() {
         <div>
           <label>
             What is your first name?
+            <br />
             <input
               type="text"
               value={name}
@@ -51,6 +53,7 @@ function Counter() {
         <div>
           <label>
             When was the last time you had a drink?
+            <br />
             <input
               type="date"
               value={lastDrinkDate}
@@ -63,8 +66,14 @@ function Counter() {
       </form>
       {daysSober !== null && (
         <p>
-          Congratulations {capitalizeFirstLetter(name)}, you have been sober for{" "}
-          {daysSober} {getPlural(daysSober, "day")}.
+          Well done, {capitalizeFirstLetter(name)}!<br />
+          <img
+            className="jumping-man"
+            src={happy}
+            alt="happy man jumping in air"
+          />
+          <br />
+          You have been sober for {daysSober} {getPlural(daysSober, "day")}.
           <br />
           That is equal to {years} {getPlural(years, "year")}, {months}{" "}
           {getPlural(months, "month")}, and {days} {getPlural(days, "day")}.

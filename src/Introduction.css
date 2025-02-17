@@ -1,0 +1,28 @@
+.Introduction {
+  padding: 20px 50px;
+}
+
+.Introduction ul {
+  list-style: none;
+}
+
+.Introduction .warning {
+  background-color: #ba143e;
+  color: #f8f9fa;
+  padding: 10px;
+}
+
+.Introduction .sad-lady {
+  width: 100%;
+}
+
+.Introduction .questions-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+@media (max-width: 400px) {
+  .Introduction .questions-container {
+    grid-template-columns: 1fr;
+  }
+}

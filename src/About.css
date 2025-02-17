@@ -1,5 +1,6 @@
 .About {
   background-color: #e0e0e0;
+  padding: 20px 50px;
 }
 
 .About h1 {
@@ -10,4 +11,29 @@
 
 .About p {
   font-family: "Poppins", sans-serif;
+}
+
+.About a {
+  color: #f8f9fa;
+}
+
+.About a:hover {
+  color: #ba143e;
+}
+
+.About .about-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+}
+
+.About .georgie-profile-pic {
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px;
+  width: 100%;
+}
+
+.About .about-text {
+  margin: 20px;
 }

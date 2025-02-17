@@ -4,7 +4,20 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="Footer">
-      <p>This project was built with love by Georgina Mudditt at Varstar</p>
+      <p>
+        This project was built with love by{" "}
+        <a
+          href="https://www.linkedin.com/in/georgina-mudditt/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Georgina Mudditt
+        </a>{" "}
+        at{" "}
+        <a href="https://varstar-web.com/" target="_blank" rel="noreferrer">
+          Varstar
+        </a>
+      </p>
     </div>
   );
 }
