@@ -5,6 +5,7 @@ import Display from "./Display";
 
 function Resources() {
   const [resources, setResources] = useState([]);
+  const [filteredResources, setFilteredResources] = useState([]);
 
   useEffect(() => {
     const fetchResources = async () => {
@@ -22,6 +23,19 @@ function Resources() {
 
     fetchResources();
   }, []);
+
+  const handleFilterChange = (selectedCategories) => {
+    console.log("Filtering resources with categories:", selectedCategories);
+    if (selectedCategories.length === 0) {
+      setFilteredResources([]);
+    } else {
+      setFilteredResources(
+        resources.filter((resource) =>
+          selectedCategories.includes(resource.category)
+        )
+      );
+    }
+  };
 
   const getButtonText = (category) => {
     switch (category) {
@@ -49,10 +63,9 @@ function Resources() {
   return (
     <div id="resources-section" className="Resources">
       <h1>Resources</h1>
-      <Display />
-
+      <Display onFilterChange={handleFilterChange} />
       <div className="resource-cards">
-        {resources.map((resource) => (
+        {filteredResources.map((resource) => (
           <div key={resource.id} className="resource-card">
             <p className="category">{resource.category}</p>
             <p className="title">{resource.title}</p>
