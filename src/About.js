@@ -43,7 +43,7 @@ function About() {
         feedback, I would love to hear from you!
       </p>
       <button>
-        <a href="mailto:g.k.mudditt@gmail.com">Email me</a>
+        <a href="mailto:hello@my-sober-toolkit.com">Email me</a>
       </button>
       <p className="center">
         If you have found this page useful, please consider making a small

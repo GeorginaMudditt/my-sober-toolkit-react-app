@@ -12,8 +12,8 @@
 
 .Resources .resource-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 20px;
 }
 
 .Resources .resource-card {
@@ -47,8 +47,8 @@
 }
 
 .Resources .resource-card .description {
-  font-size: 10px;
-  margin-top: 10px;
+  font-size: 12px;
+  margin-top: 20px;
   padding: 5px;
   text-align: center;
 }
