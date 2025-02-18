@@ -9,3 +9,46 @@
 .Resources li {
   margin: 0;
 }
+
+.Resources .resource-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.Resources .resource-card {
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  max-width: 200px;
+}
+
+.Resources .resource-card .category {
+  background-color: #ba143e;
+  border-radius: 20px 20px 0 0;
+  color: #f8f9fa;
+  text-align: center;
+}
+
+.Resources .resource-card .title {
+  font-weight: 700;
+  padding: 5px;
+  text-align: center;
+}
+
+.Resources .resource-card .secondary_information {
+  text-align: center;
+}
+
+.Resources .resource-card img {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.Resources .resource-card .description {
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+}

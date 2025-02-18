@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react"; // is this the right place for this?
+import React, { useState, useEffect } from "react";
 import "./Resources.css";
-import { supabase } from "./config/supabaseClient"; // is this okay here?
+import { supabase } from "./config/supabaseClient";
+import Display from "./Display";
 
 function Resources() {
   const [resources, setResources] = useState([]);
@@ -9,7 +10,9 @@ function Resources() {
     const fetchResources = async () => {
       const { data, error } = await supabase
         .from("sober_resources")
-        .select("title, secondary_information");
+        .select(
+          "category, title, secondary_information, image, description, link"
+        );
       if (error) {
         console.error("Error fetching resources:", error);
       } else {
@@ -20,26 +23,56 @@ function Resources() {
     fetchResources();
   }, []);
 
+  const getButtonText = (category) => {
+    switch (category) {
+      case "App":
+        return "Download app";
+      case "Book":
+        return "Buy book";
+      case "Charity":
+        return "Find out more";
+      case "Coaching":
+        return "Learn more";
+      case "Community":
+        return "Join";
+      case "Film":
+        return "Watch";
+      case "Podcast":
+        return "Listen";
+      case "Social media":
+        return "Follow";
+      default:
+        return "Learn more";
+    }
+  };
+
   return (
     <div id="resources-section" className="Resources">
       <h1>Resources</h1>
-      <p>I want to see:</p>
-      <ul>
-        <li>All resources</li>
-        <li>Apps</li>
-        <li>Books</li>
-        <li>Charities</li>
-        <li>Coaching</li>
-        <li>Communities</li>
-        <li>Films</li>
-        <li>Podcasts</li>
-        <li>Social media</li>
-      </ul>
+      <Display />
+
       <div className="resource-cards">
         {resources.map((resource) => (
           <div key={resource.id} className="resource-card">
-            <h2>{resource.title}</h2>
-            <p>{resource.secondary_information}</p>
+            <p className="category">{resource.category}</p>
+            <p className="title">{resource.title}</p>
+            <p className="secondary_information">
+              {resource.secondary_information}
+            </p>
+            <img src={resource.image} alt={resource.title} />
+            <p className="description">{resource.description}</p>
+            <button>
+              {resource.link && (
+                <a
+                  href={resource.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="resource-button"
+                >
+                  {getButtonText(resource.category)}
+                </a>
+              )}
+            </button>
           </div>
         ))}
       </div>
