@@ -7,6 +7,24 @@ function Resources() {
   const [resources, setResources] = useState([]);
   const [filteredResources, setFilteredResources] = useState([]);
 
+  const categoryMapping = {
+    Apps: "App",
+
+    Books: "Book",
+
+    Charities: "Charity",
+
+    Coaching: "Coaching",
+
+    Communities: "Community",
+
+    Films: "Film",
+
+    Podcasts: "Podcast",
+
+    "Social media": "Social media",
+  };
+
   useEffect(() => {
     const fetchResources = async () => {
       const { data, error } = await supabase
@@ -29,11 +47,15 @@ function Resources() {
     if (selectedCategories.length === 0) {
       setFilteredResources([]);
     } else {
-      setFilteredResources(
-        resources.filter((resource) =>
-          selectedCategories.includes(resource.category)
-        )
-      );
+      const sortedResources = resources
+        .filter((resource) => selectedCategories.includes(resource.category))
+        .sort((a, b) => {
+          return (
+            Object.values(categoryMapping).indexOf(a.category) -
+            Object.values(categoryMapping).indexOf(b.category)
+          );
+        });
+      setFilteredResources(sortedResources);
     }
   };
 
@@ -90,13 +112,9 @@ function Resources() {
         ))}
       </div>
       <p className="disclosure">
-        <br />
-        <br />
         <strong>Disclosure:</strong> If you follow a link on this website to buy
         a book, I will recieve a small commission at no extra cost to you. This
         helps me to keep this website running, so thank you for your support!
-        <br />
-        <br />
       </p>
     </div>
   );
