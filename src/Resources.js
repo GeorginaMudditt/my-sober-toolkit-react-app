@@ -21,8 +21,6 @@ function Resources() {
     Films: "Film",
 
     Podcasts: "Podcast",
-
-    "Social media": "Social media",
   };
 
   useEffect(() => {
@@ -70,13 +68,11 @@ function Resources() {
       case "Coaching":
         return "Learn more";
       case "Community":
-        return "Join";
+        return "Find out more";
       case "Film":
         return "Watch";
       case "Podcast":
         return "Listen";
-      case "Social media":
-        return "Follow";
       default:
         return "Learn more";
     }

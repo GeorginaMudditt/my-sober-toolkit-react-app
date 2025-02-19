@@ -13,7 +13,6 @@ function Display({ onFilterChange }) {
     Communities: "Community",
     Films: "Film",
     Podcasts: "Podcast",
-    "Social media": "Social media",
   };
 
   const handleCheckboxChange = (category) => {
