@@ -13,6 +13,9 @@
 .Resources .resource-card {
   background-color: #f8f9fa;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   max-width: 200px;
 }
 
@@ -45,6 +48,15 @@
   margin-top: 20px;
   padding: 5px;
   text-align: center;
+}
+
+.Resources .resource-button {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.Resources .resource-button:hover {
+  color: #ba143e;
 }
 
 .Resources .disclosure {

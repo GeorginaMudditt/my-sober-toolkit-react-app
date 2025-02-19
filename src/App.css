@@ -34,16 +34,11 @@
   transition: background-color 0.3s ease;
 }
 
-.App button a {
-  color: #f8f9fa;
-  text-decoration: none;
-}
-
-.App button a:hover {
-  color: #ba143e;
-}
-
 .App button:hover {
   background-color: #f8f9fa;
   color: #ba143e;
+}
+
+.App a {
+  text-decoration: none;
 }
