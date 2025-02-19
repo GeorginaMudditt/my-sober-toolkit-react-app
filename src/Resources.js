@@ -89,6 +89,11 @@ function Resources() {
           </div>
         ))}
       </div>
+      <p className="disclosure">
+        <strong>Disclosure:</strong> If you follow a link on this website to buy
+        a book, I will recieve a small commission at no extra cost to you. This
+        helps me to keep this website running, so thank you for your support!
+      </p>
     </div>
   );
 }

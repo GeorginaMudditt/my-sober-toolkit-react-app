@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Display.css";
+import reading from "../src/images/reading.png";
 
 function Display({ onFilterChange }) {
   const [selectedCategories, setSelectedCategories] = useState([]);
@@ -33,21 +34,27 @@ function Display({ onFilterChange }) {
   return (
     <div className="Display">
       <p>I want to see:</p>
-      <ul>
-        {Object.keys(categoryMapping).map((category) => (
-          <li key={category}>
-            <label>
-              <input
-                type="checkbox"
-                value={category}
-                onChange={() => handleCheckboxChange(category)}
-              />
-              {category}
-            </label>
-          </li>
-        ))}
-      </ul>
-      <button onClick={handleDisplayClick}>Display</button>
+      <div className="checkbox-container">
+        <div className="checkbox-list">
+          {Object.keys(categoryMapping).map((category) => (
+            <div key={category}>
+              <label>
+                <input
+                  className="tickbox"
+                  type="checkbox"
+                  value={category}
+                  onChange={() => handleCheckboxChange(category)}
+                />
+                {category}
+              </label>
+            </div>
+          ))}
+        </div>
+        <div className="checkbox-image-button">
+          <button onClick={handleDisplayClick}>Display</button>
+          <img className="reading" src={reading} alt="reading" />
+        </div>
+      </div>
     </div>
   );
 }

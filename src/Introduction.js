@@ -44,6 +44,8 @@ function Introduction() {
         to help you on your journey, and this website is one of them. Here you
         will find a collection of resources to help you get and stay sober.
       </p>
+      <br />
+      <br />
       <p className="warning">
         <strong>Warning:</strong> This website is intended for individuals
         seeking support in reducing or quitting alcohol who are {}

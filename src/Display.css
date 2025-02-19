@@ -1,0 +1,13 @@
+.Display .checkbox-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+}
+
+.Display input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.Display .reading {
+  width: 100%;
+}
