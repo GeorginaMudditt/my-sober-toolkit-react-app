@@ -8,6 +8,11 @@
   margin-right: 10px;
 }
 
+.Display .checkbox-image-button {
+  text-align: center;
+}
+
 .Display .reading {
   width: 100%;
+  max-width: 200px;
 }

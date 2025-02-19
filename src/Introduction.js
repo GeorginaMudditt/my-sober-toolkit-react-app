@@ -54,6 +54,8 @@ function Introduction() {
         life-threatening. If this is the case for you, please seek help from a
         medical professional immediately to ensure your safety and well-being.
       </p>
+      <br />
+      <br />
     </div>
   );
 }
