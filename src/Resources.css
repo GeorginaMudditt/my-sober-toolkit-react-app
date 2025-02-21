@@ -1,13 +1,11 @@
 .Resources {
   margin: 0 auto;
-  padding: 20px 50px;
-  width: 80%;
+  padding: 20px;
 }
 
 .Resources .resource-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .Resources .resource-card {
