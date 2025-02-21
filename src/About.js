@@ -18,6 +18,7 @@ function About() {
         <div className="about-text">
           <p>
             My name is Georgie and I have been sober since 10 October 2022.
+            <br />
             <br />I struggled with my alcohol consumption for decades before
             finally facing the fact that I needed to do something about it. I
             managed to get sober without going to meetings, but with the support
@@ -26,11 +27,13 @@ function About() {
             on, and I devoured everything I could get my hands on in the early
             days of sobriety.
             <br />
+            <br />
             However, not everyone is on Facebook and I have noticed an
             increasing movement away from social media. Lots of people - myself
             included - are looking to take a break from the constant scrolling
             and notifications. I wanted to create a resource that is accessible
             to everyone, regardless of whether they are on social media or not.
+            <br />
             <br />I was made redundant from my job in English language
             assessment in late 2023 and since then I have been retraining as a
             front-end developer. I created this project as a way to practise my
