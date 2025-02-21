@@ -7,7 +7,7 @@
 .Resources .resource-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  row-gap: 20px;
+  row-gap: 50px;
 }
 
 .Resources .resource-card {
