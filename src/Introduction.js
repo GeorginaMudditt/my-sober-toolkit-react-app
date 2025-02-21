@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Introduction.css";
 import sad from "./images/sad.png";
+import Typewriter from "typewriter-effect/dist/core";
 
 function Introduction() {
+  useEffect(() => {
+    new Typewriter("#welcome", {
+      strings: "Welcome to My Sober Toolkit",
+      autoStart: true,
+      cursor: "",
+    });
+  }, []);
+
   return (
     <div className="Introduction">
-      <h1>Welcome</h1>
+      <h1 id="welcome">Welcome to My Sober Toolkit</h1>
       <div className="questions-container">
         <div className="questions-image">
           <img className="sad-lady" src={sad} alt="sad lady sitting down" />
