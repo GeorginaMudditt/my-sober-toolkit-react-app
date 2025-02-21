@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import georgie from "./images/Georgie.jpeg";
+import thanks from "./images/thanks.png";
 
 function About() {
   return (
@@ -59,6 +60,7 @@ function About() {
           Buy me a mocktail
         </a>
       </button>
+      <img className="thanks" src={thanks} alt="thanks image by pngtree" />
     </div>
   );
 }
