@@ -1,7 +1,5 @@
 .Counter {
-  background-color: #79c2d0;
-  background-image: url(../src/images/arches.png);
-  padding: 20px 50px;
+  background-color: #d8eaf9;
   text-align: center;
 }
 
@@ -19,4 +17,17 @@
 
 .Counter .jumping-man {
   height: 100px;
+}
+
+.Counter .color-fade-top,
+.color-fade-bottom {
+  height: 100px;
+}
+
+.Counter .color-fade-top {
+  background-image: linear-gradient(#e0e0e0, #d8eaf9);
+}
+
+.Counter .color-fade-bottom {
+  background-image: linear-gradient(#d8eaf9, #e0e0e0);
 }

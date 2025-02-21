@@ -36,6 +36,7 @@ function Counter() {
 
   return (
     <div id="counter-section" className="Counter">
+      <div className="color-fade-top"></div>
       <h1>Sobriety counter</h1>
       <form onSubmit={handleSubmit}>
         <div>
@@ -79,6 +80,7 @@ function Counter() {
           {getPlural(months, "month")}, and {days} {getPlural(days, "day")}.
         </p>
       )}
+      <div className="color-fade-bottom"></div>
     </div>
   );
 }
