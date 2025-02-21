@@ -14,7 +14,7 @@ function Introduction() {
           <p>Is alcohol holding you back from reaching your full potential?</p>
           <p>
             Do you often drink more than you had intended, feeling like you
-            don't have an off switch?
+            don't have an "off switch"?
           </p>
           <p>
             Do you feel like your mental and/or physical health suffers because
@@ -27,9 +27,10 @@ function Introduction() {
         </div>
       </div>
       <p>
-        If you answered "yes" to any of those questions, maybe it would be
-        beneficial to take a break from alcohol or try to stop drinking
-        altogether.
+        You don't have to hit rock bottom before realising you have a problem
+        with your alcohol consumption. If you answered "yes" to any of the
+        questions above, you probably already know that it's time for you to
+        take a break from alcohol, or try to stop drinking altogether.
         <br />
         <br />
         Getting sober is <strong>so hard</strong>, and staying sober is even
@@ -37,7 +38,8 @@ function Introduction() {
         solution. But you are not alone. There are many people who have been
         where you are and have come out the other side. You will need to fill
         your toolkit with all the tools you can find and keep trying until you
-        find what works for you.
+        find what works for you - the tools to help you build the life you
+        deserve.
         <br />
         <br />
         The good news is that there are a growing number of resources available

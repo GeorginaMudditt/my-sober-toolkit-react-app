@@ -17,3 +17,7 @@
   width: 100%;
   max-width: 200px;
 }
+
+.Display .checkbox-container {
+  grid-template-columns: 1fr;
+}
