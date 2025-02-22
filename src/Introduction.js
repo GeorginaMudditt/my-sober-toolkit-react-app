@@ -20,18 +20,28 @@ function Introduction() {
           <img className="sad-lady" src={sad} alt="sad lady sitting down" />
         </div>
         <div className="questions-text">
-          <p>Is alcohol holding you back from reaching your full potential?</p>
           <p>
-            Do you often drink more than you had intended, feeling like you
-            don't have an "off switch"?
+            <strong>
+              Is alcohol holding you back from reaching your full potential?
+            </strong>
           </p>
           <p>
-            Do you feel like your mental and/or physical health suffers because
-            of drinking?
+            <strong>
+              Do you often drink more than you had intended, feeling like you
+              don't have an "off switch"?
+            </strong>
           </p>
           <p>
-            Do you ever feel ashamed or embarrassed of the way you have behaved
-            when drinking?
+            <strong>
+              Do you feel like your mental and/or physical health suffers
+              because of drinking?
+            </strong>
+          </p>
+          <p>
+            <strong>
+              Do you ever feel ashamed or embarrassed of the way you have
+              behaved when drinking?
+            </strong>
           </p>
         </div>
       </div>

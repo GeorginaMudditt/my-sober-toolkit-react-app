@@ -6,7 +6,7 @@
 
 .Resources .resource-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   row-gap: 50px;
 }
 
@@ -72,5 +72,15 @@
   .Resources {
     padding: 20px;
     width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .Resources .resource-card {
+    max-width: 150px;
+  }
+  .Resources .resource-cards {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    row-gap: 30px;
   }
 }

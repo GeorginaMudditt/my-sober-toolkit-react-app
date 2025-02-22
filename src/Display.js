@@ -34,10 +34,10 @@ function Display({ onFilterChange }) {
     <div className="Display">
       <div className="checkbox-container">
         <div className="checkbox-list">
-          <p>I want to see:</p>
+          <p className="checklist">I want to see:</p>
 
           {Object.keys(categoryMapping).map((category) => (
-            <div key={category}>
+            <div className="checklist" key={category}>
               <label>
                 <input
                   className="tickbox"

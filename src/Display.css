@@ -6,6 +6,10 @@
   margin-bottom: 40px;
 }
 
+.Display .checklist {
+  font-size: 20px;
+}
+
 .Display input[type="checkbox"] {
   margin-right: 10px;
 }
