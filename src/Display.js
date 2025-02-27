@@ -34,7 +34,7 @@ function Display({ onFilterChange }) {
     <div className="Display">
       <div className="checkbox-container">
         <div className="checkbox-list">
-          <p className="checklist">I want to see:</p>
+          <div className="checklist">I want to see:</div>
 
           {Object.keys(categoryMapping).map((category) => (
             <div className="checklist" key={category}>
