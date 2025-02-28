@@ -21,6 +21,8 @@ function Resources() {
     Films: "Film",
 
     Podcasts: "Podcast",
+
+    Television: "Television",
   };
 
   useEffect(() => {
@@ -73,6 +75,8 @@ function Resources() {
         return "Watch";
       case "Podcast":
         return "Listen";
+      case "Television":
+        return "Watch";
       default:
         return "Learn more";
     }
