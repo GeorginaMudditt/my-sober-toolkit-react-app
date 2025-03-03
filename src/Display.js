@@ -52,7 +52,11 @@ function Display({ onFilterChange }) {
           ))}
         </div>
         <div className="checkbox-image-button">
-          <img className="reading" src={reading} alt="reading" />
+          <img
+            className="reading"
+            src={reading}
+            alt="woman relaxing and reading"
+          />
           <button onClick={handleDisplayClick}>Display</button>
         </div>
       </div>

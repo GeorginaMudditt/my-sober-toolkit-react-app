@@ -63,7 +63,11 @@ function About() {
           Buy me a mocktail
         </a>
       </button>
-      <img className="thanks" src={thanks} alt="thanks" />
+      <img
+        className="thanks"
+        src={thanks}
+        alt="thank you for visiting message"
+      />
     </div>
   );
 }
